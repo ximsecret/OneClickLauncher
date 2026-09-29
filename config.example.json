@@ -1,0 +1,71 @@
+{
+  "apps": [
+    {
+      "bundleId": "com.follow.clash",
+      "delaySeconds": 2.0,
+      "enabled": true,
+      "id": "flclash",
+      "name": "FlClash",
+      "note": "优先启动 · 自动激活代理核心 & 7890端口",
+      "path": "/Applications/FlClash.app"
+    },
+    {
+      "bundleId": "com.cpa.gui",
+      "delaySeconds": 1.5,
+      "enabled": true,
+      "id": "easycliproxyapi",
+      "name": "EasyCLIProxyAPI",
+      "note": "本地代理服务",
+      "path": "/Applications/EasyCLIProxyAPI.app"
+    },
+    {
+      "bundleId": "com.ccswitch.desktop",
+      "delaySeconds": 1.5,
+      "enabled": true,
+      "id": "ccswitch",
+      "name": "CC Switch",
+      "note": "配置切换工具",
+      "path": "/Applications/CC Switch.app"
+    },
+    {
+      "bundleId": "com.openai.codex",
+      "delaySeconds": 1.5,
+      "enabled": true,
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "note": "OpenAI 客户端",
+      "path": "/Applications/ChatGPT.app"
+    },
+    {
+      "bundleId": "com.google.Chrome",
+      "delaySeconds": 1.5,
+      "enabled": true,
+      "id": "googlechrome",
+      "name": "Google Chrome",
+      "note": "主力网页浏览器",
+      "path": "/Applications/Google Chrome.app"
+    },
+    {
+      "bundleId": "com.meta.endo",
+      "delaySeconds": 1.5,
+      "enabled": true,
+      "id": "muse",
+      "name": "Muse",
+      "note": "工作空间",
+      "path": "/Applications/Muse.app"
+    },
+    {
+      "bundleId": "com.tencent.xinWeChat",
+      "delaySeconds": 1.0,
+      "enabled": true,
+      "id": "wechat",
+      "name": "微信",
+      "note": "即时通讯",
+      "path": "/Applications/WeChat.app"
+    }
+  ],
+  "autoStartFlClashCore": true,
+  "flClashPort": 7890,
+  "lastLaunchedBootId": "",
+  "waitForFlClashPort": true
+}

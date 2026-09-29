@@ -1,0 +1,20 @@
+# Build Artifacts
+.build/
+build/
+*.o
+*.app/
+
+# macOS System Files
+.DS_Store
+*.swp
+*~
+
+# Local User Configurations (Privacy Protection)
+config.json
+*.local.json
+
+# Xcode / SPM
+.swiftpm/
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
